@@ -18,7 +18,7 @@ int main()
         printf("Direita\n");
     }
 
-    printf("\n"); // Adiciona uma linha em branco para separar os movimentos
+    printf("\n"); 
 
     // --- Movimento do Bispo (usando 'while') ---
     // O Bispo se move 5 casas na diagonal para cima e à direita
@@ -35,7 +35,7 @@ int main()
         contadorBispo++;
     }
 
-    printf("\n"); // Adiciona uma linha em branco para separar os movimentos
+    printf("\n"); 
 
     // --- Movimento da Rainha (usando 'do-while') ---
     // A Rainha se move 8 casas para a esquerda
@@ -55,7 +55,7 @@ int main()
         } while (contadorRainha < casasRainha);
     }
 
-    printf("\n"); // Adiciona uma linha em branco para separar os movimentos
+    printf("\n"); 
 
     // --- Código para manter a janela do console aberta no Windows ---
     printf("Pressione ENTER para sair...");
